@@ -1,22 +1,19 @@
 package ahwi;
 
-public class ARTIKEL{
-					
-				private double articleNumber;
-				private double price;
+public class ARTIKEL {
 
-			public ARTIKEL(double articleNumber, double price) {
-				
-				this.articleNumber = articleNumber;
-				this.setPrice(price);
-				
-			}
+	private double articleNumber;
+	private double price;
 
-			public double getPrice() {
-				return price;
-			}
+	public ARTIKEL(double articleNumber, double price) {
 
-			public void setPrice(double price) {
-				this.price = price;
-			}
+		this.articleNumber = articleNumber;
+		this.price = price;
+
 	}
+
+	public double getPrice() {
+		return price;
+	}
+
+}
